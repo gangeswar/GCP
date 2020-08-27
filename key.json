@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rugged-weaver-287614",
+  "private_key_id": "764c85a7dd14726bc5680131e478fd855b938e14",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC+qZy9JVZniIGS\nVphQUNJSMrBw/sISZC4yAk83nIRjVMUCO6hgsLBg2GVMlFC+aiZ5B8gtXyOdcJLi\nG7+g36zDx2xQ9LPOACz5UnvAK7M2WlFnnBFli+m8hTU1SAntq5Hks2G/Rgt+xddS\nqi2CV4LBSZ44sJ7v0NkRJd/89UwiB3xUHN+B4buvVe+C4DWKH5WAWrwbwhYkf8o2\n0gG8+LrRwDQI2ra8DGhMRa7RrFiPDTp6Rrfe7LdESzoctq7yEHCrhJRfEAAjoYFo\njuM+Jb4ltpU3MJlZ7Pl0Zb2SJL+974Z2hflfKL7f7xeFdETww/VqV7zsCI0APwVo\nZmPp3rOPAgMBAAECggEAAdC7nVFtsS6rjSkl6h3a4s14wJqsXmB10CQVfQIQgKGd\n/pdy0vjbtRBaZpBC9I0uMJjSXxw4ypb3zw9Uk8ONcY/EiEDMNXnq87TFWN8RpcLW\nY5Yo1D6wywq5pvg4n/qyOOs8UwXnth1MH41fQY5zwENjLkcAPGhQqMkjiNUNFIXZ\ng1pkm26m46pAai5ROKBTjaComH2AYa7UKeM9fF8ADY9f1CEd/MtLTtPrdTMZw4FJ\nDLjJOHZDpZtyq0DoR09VyNSWu0a3BN/yHz8nVyV/Fs+GJiEl39dgXD/9L1LArET8\nX9cdnZCUwjmNGkXZlZ/3WzENSuY40iBTDTBbT8dzgQKBgQDlt2bRZhBpMbRnm6J9\nbxufp7hdc6ccadW391kUcH4O04fb21/o03c0hkSzli0kxivTBhQSEY7jzD6lPYMb\nHaFi/SidFB03DR496YRT537bjwenzlnp46dypNkn/pjv5xnEhJ0JkaU5GtIpPyqh\nEt7bMdJ4bqyQVgClBMNqq7lOBQKBgQDUeknDg4GZvs3OSjkKlxk4U5/RDqEuk5qL\nY9HMo0EP3aJw/ySaQKwifh2VB5NR5SsFz1eYKXmtxzCSH2ATvZ4xtztTPt4my3ND\n09noprgE7JXrFxNm2dxrEQv+4ldM9VV+UvCLa8rGQoY7eZbTrAcpVeQ/liyDFhTe\nIJjsDxBbgwKBgAiTu3wQEobK+1BvCDckweRJL+IVYmT2MqumyaWwuZQ2I7l6zG72\nDlpgtQn7jn30BEjhzjgKfcpVovUqgc2uYos+ppiO2rRmgf2PzYgQebUa9w817jeE\nb4khTJZotC8o8tZamT51OLUUIkq1+BKBkN6gUpp6j2joPSfsMJu4A7g9AoGAHKdZ\nJzqm0Zr/miA8TQdPaV8toD2+0s8o+j893cDuVztmWqKtxveNvyEO0DgzT8n94Uyy\n3VxKgnroO+xrQn5BxSaWo4VI5CZvpuf87Pj+u/tDxG5aOXaL2Qx1d6wCZeh33Q9G\nTSb+M3ppK8Ab7PO4C4T/wOt5mTvzGHmA5eSqKg0CgYBk0M6iLiRsFFR6FWfCsujH\nMlGejhd0TxYx3Qfr0ZcvMTECZLDWfd4k2IyUafyWZcn1tdbt8b8O8982MEG0BCoF\nC4jMeuAeKRhKa4hL61QLFXzD/pf6t3iptlg5iIuPPwWyTOAZxjkl74z9Xxb9NVVG\nec3wmry/m7rVxs0Glo4vaQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "album-437@rugged-weaver-287614.iam.gserviceaccount.com",
+  "client_id": "117691272816701823856",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/album-437%40rugged-weaver-287614.iam.gserviceaccount.com"
+}
