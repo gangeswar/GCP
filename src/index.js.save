@@ -1,4 +1,3 @@
-
 const http = require('http');
 const express = require('express');
 const morgan = require("morgan");
@@ -92,6 +91,8 @@ app.use((err, req, res, next) => {
 let server = http.createServer(app);
 
 let port = process.env.PORT || config.Port;
-server.listen(port); 
 
-console.log(`Server Started and listening on ${port}`);
+server.listen(px
+ort); 
+
+console.log(`Server Started and listening on ${config.Port}`);
