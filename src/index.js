@@ -7,10 +7,8 @@ const multer = require('multer');
 
 
 const config = require('./config/config.json').Config;
-const getImage = require('./get-image');
-const uploadImage = require('./image');
-const downloadImage = require('./download');
 
+const image = require('./image');
 
 
 const app = express();
@@ -31,18 +29,13 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
 app.get('/', async (req, res, next) => {
-  let fileList = [];
   try {
-    const [imageList] = await getImage()
-    imageList.forEach(file => {
-      console.log()
-      fileList.push(file.name);
-    });
+    const imageList = await image.getImage()
     res
       .status(200)
       .json({
         message: "Get all file",
-        data: fileList
+        data: imageList
       })
   } catch (error) {
     next(error)
@@ -53,7 +46,7 @@ app.get('/', async (req, res, next) => {
 app.post('/image', async (req, res, next) => {
   try {
     const myFile = req.file
-    const imageUrl = await uploadImage(myFile)
+    const imageUrl = await image.uploadImage(myFile)
     res
       .status(200)
       .json({
@@ -67,12 +60,26 @@ app.post('/image', async (req, res, next) => {
 
 app.get('/download', async (req, res, next) => {
   try {
-    const imageUrl = await downloadImage()
+    const imageUrl = await image.downloadImage()
     res
       .status(200)
       .json({
         message: "Download was successful",
         data: imageUrl
+      })
+  } catch (error) {
+    next(error)
+  }
+});
+
+app.delete('/image/:id', async (req, res, next) => {
+  console.log()
+  try {
+    const imageUrl = await image.deleteImage(req.params.id)
+    res
+      .status(200)
+      .json({
+        message: "Deleted successful"
       })
   } catch (error) {
     next(error)
